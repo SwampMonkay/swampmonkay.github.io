@@ -1,0 +1,159 @@
+* {
+    	box-sizing: border-box;
+    	margin: 0;
+    	padding: 0;
+    	font-family: sans-serif;
+    	scroll-behavior: smooth;
+}
+
+html,
+body {
+    	height: 100%;
+    	width: 100%;
+    	background-color: #000080;
+}
+
+body {
+    	padding-top: 80px;
+}
+
+.searchbox {  
+	float: left;  
+}  
+input[type=text] {  
+	padding: 6px;  
+	margin-top: 8px;  
+	font-size: 17px;  
+	border: 2px solid #a7a7a7;  
+}  
+.searchbox input[type="button"] {
+	padding: 8px;  
+	margin-top: 10px;  
+	margin-left: 10px;  
+	background: #a7a7a7;  
+	font-size: 20px;  
+	border: none;  
+	cursor: pointer;  
+}  
+.searchbox input[type="button"]:hover {  
+	background: blue;  
+}  
+
+/* Login Stuff */
+.login__container {
+	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+	align-items: center;
+	margin: auto;
+	height: 80%;
+    	text-align: center;
+    	padding: 50px 50px;
+}
+
+.password__area {
+	border-radius: 10px;
+	background-color: #aaaaaa;
+	padding: 20px 30px;
+}
+
+.logo {
+	padding: 10px;
+	background-image: url("img/logo.png");
+	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+	align-items: center;
+	height: 38.5%;
+    	padding: 90px 130px;
+}
+/* End Login */
+
+/* Search */
+.search__container {
+	border-radius: 5px;
+	margin: 10px;
+	margin-top: 5px;
+	padding: 20px;
+	background: white;
+}
+
+.search__content {
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+.ad__search {
+	float: right;
+}
+
+
+.search__bar {
+	size: 10%;
+}
+
+.search__results {
+	margin-top: 5%;
+}
+
+.result {
+	margin: 2%;
+	margin-right: 50%;
+	padding: 10px;
+	border-radius: 2px;
+	border: 1px solid #e2e2e2;
+}
+
+.ad__left {
+	float: left;
+	padding: 40px;
+	color: white;
+	margin-left: 10px;
+}
+
+.ad__right {
+	float: right;
+	padding: 40px;
+	color: white;
+	margin-right: 10px;
+}
+
+.result p{
+	color: #4d5156;
+	margin-left: 2%;
+	font-size: 13px;
+}
+
+.web__url {
+	font-weight: 10;
+	color: black;
+	margin-left: 0%;
+}
+
+.ad {
+	
+}
+/* End Search */
+
+/* Footer */
+.footer__container {
+	position: fixed;
+	background-color: #4c4c4c;
+	width: 100%;
+	height: 50px;
+	margin: 0px auto;
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	text-align: center;
+}
+
+.footer__container a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer__container a:hover {
+	color: #b9b9b9;
+	transition: 0.4s color ease;
+}
+/* End Footer */
